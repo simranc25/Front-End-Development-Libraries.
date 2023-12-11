@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+/* General */
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: rgb(234,178,156);
+
+}
+
+button,
+button:active {
+  background-color: rgb(234,178,156);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  text-align: center;
+  box-shadow: 3px 3px rgb(194, 91, 44);
+  -webkit-box-shadow: 3px 3px rgb(194, 91, 44);
+  -moz-box-shadow: 3px 3px rgb(194, 91, 44);
+}
+
+button:hover,
+button:focus {
+  translate: 0.2em 0.2em;
+  box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+}
+
+.container-fluid {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.row-container {
+  height: 100%;
+  min-height: 100vh;
+}
+
+/* Clock */
+
+.clock-container {
+  background-color: rgb(240, 240, 190); 
+  width: 350px;
+  border-radius: 20px;
+  padding: 20px 10px;
+  box-shadow: 10px 10px sienna;
+
+}
+
+/* Display + Controls */
+
+#time-left {
+  font-size: 70px;
+  text-align: center;
+  background-color: rgb(150,180,175);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+}
+
+#timer-label {
+  font-size: 25px;
+  text-align: center;
+  background-color: rgb(150,180,175);
+  border-radius: 10px;
+  height: 40px;
+  width: 65%;
+  display: inline-block;
+  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+
+}
+
+#timer-ssr {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+#start_stop {
+  margin-right: 8px;
+}
+
+#display-controls {
+  margin: 10px 0;
+  padding: 0;
+}
+
+/* Timer Length Controls */
+
+.break-container, 
+.session-container {
+  text-align: center;
+  display: inline-block;
+  border: 1px dotted rgb(234,178,156);
+  padding: 10px;
+  border-radius: 10px;
+  width: 48%;
+}
+
+.break-container,
+.inc-arrow {
+  margin-right: 10px;
+}
+
+#break-label, 
+#session-label {
+  font-size: 13px;
+}
